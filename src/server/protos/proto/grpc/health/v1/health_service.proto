@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "grpc/health/v1/health_check_request.proto";
+import "grpc/health/v1/health_check_response.proto";
+
+package grpc.health.v1;
+
+service Health {
+  rpc Check(HealthCheckRequest) returns (HealthCheckResponse);
+
+  rpc Watch(HealthCheckRequest) returns (stream HealthCheckResponse);
+}
