@@ -24,5 +24,6 @@ jobs:
       - run: ls
       - uses: bufbuild/buf-action@v1
         with:
+          input: 'src/server/protos'
           breaking: false
           format: false
