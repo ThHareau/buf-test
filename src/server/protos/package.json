@@ -1,0 +1,25 @@
+{
+  "name": "buf-test-proto",
+  "version": "0.0.1",
+  "description": "Prototype and generated models",
+  "main": "index.ts",
+  "directories": {
+    "lib": "js/lib"
+  },
+  "devDependencies": {
+    "@bufbuild/protoc-gen-es": "^2.2.3",
+    "@connectrpc/connect": "^2.0.1",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "grpc-tools": "^1.13.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.6",
+    "google-protobuf": "^3.21.4",
+    "@bufbuild/buf": "^1.50.0",
+    "@bufbuild/protobuf": "^2.2.3"
+  }
+}
